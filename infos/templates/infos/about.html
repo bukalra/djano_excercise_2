@@ -1,0 +1,16 @@
+{% extends "infos/main.html" %}
+
+{% block content %}
+
+<header>
+    <h1>About</h1>
+</header>
+<div class="container">
+   <p>Hi, my name is Radek. I am looking for to learn some Django!</p>
+   {% load static %}
+    
+   <img src="{% static 'nicola.jpeg' %}" width = "400" height = "400" alt="Genius" title="Nicola Tesla">
+
+</div>
+
+{% endblock %}
